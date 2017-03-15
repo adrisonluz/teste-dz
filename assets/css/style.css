@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+    font-style: italic;
+}
+section.top header{
+    padding: 10px 0 5px;
+    background: #222222;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.etapas{
+    list-style: none;
+    text-align: center;
+}
+.etapas li{
+    display: inline;
+    padding: 10px 0 10px 10px;
+    font-weight: bold;
+}
+.etapas li.active {
+    color: #6ac7f1;
+}
+.etapas li.finish {
+    color: #6ac7f1;
+}
+.etapas li i {
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+section.content{
+    margin: 20px 0;
+}
+.panel-heading p {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 5%;
+}
+.panel-heading p span {
+    font-size: 34px;
+    font-style: italic;
+}
+.panel-footer p{
+    font-weight: bold;
+    font-style: italic;
+}
+.form-etapas{
+    margin: 20px 0;
+}
+.etapas label {
+    vertical-align: middle;
+}
+.result-img {
+    box-shadow: 1px 2px 10px 6px;
+    margin: 20px 0;
+    max-width: 500px;
+}
+#restart {
+    font-weight: bold;
+    font-size: 26px;
+}
+#restart:hover {
+    text-decoration: none;
+}
+#result{
+    pointer-events: none;
+}
+img.error-img {
+    border: 1px solid #ffffff;
+    box-shadow: none;
+    max-width: 300px;
+    margin: 20px 0;
+}
