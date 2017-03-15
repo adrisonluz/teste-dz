@@ -7,7 +7,10 @@
     	<meta charset="UTF-8">
         <title>Em um dia, que série melhor representa você?</title>
         
+        <!-- Favicon -->
         <link rel="shortcut icon" href="assets/img/favicon.png" />
+        
+        <!-- Css -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css" />
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
@@ -50,8 +53,29 @@
         <section class="bottom">
             
         </section>
+        
+        <div id="modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header</h4>
+                </div>
+                  
+                <div class="modal-body">
+                  <p>Some text in the modal.</p>
+                </div>
+                  
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+        </div>
+        
+        <!-- Js -->
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     </body>
-    
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </html>

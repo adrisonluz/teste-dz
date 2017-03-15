@@ -3,7 +3,7 @@ h1{
     font-style: italic;
 }
 section.top header{
-    padding: 10px 0 5px;
+    padding: 15px 0 5px;
     background: #222222;
     color: #ffffff;
     margin-bottom: 20px;
@@ -47,7 +47,11 @@ section.content{
 .form-etapas{
     margin: 20px 0;
 }
-.etapas label {
+.form-etapas .form-control{
+    margin: 5px 0;
+    height: 40px;
+}
+.form-etapas label {
     vertical-align: middle;
 }
 .result-img {
@@ -70,4 +74,7 @@ img.error-img {
     box-shadow: none;
     max-width: 300px;
     margin: 20px 0;
+}
+.btn-form{
+    margin-top: 20px;
 }

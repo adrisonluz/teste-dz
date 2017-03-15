@@ -1,6 +1,6 @@
 <div class="panel panel-primary text-center">
     <header class="panel-heading">
-      <p>1 - Pergunta?</p>
+      <p>4 - Você chega no trabalho e as convenções sociais te obrigam a puxar assunto.</p>
     </header>
     
     <main class="panel-body">
@@ -15,6 +15,8 @@
                     <input type="radio" name="etapa-1" value="b" />
                     <label>Resposta 2</label>
                 </div>
+                
+                <input class="btn btn-primary btn-form" type="submit" value="Enviar" />
             </form>
         </div>
     </main>
