@@ -18,7 +18,7 @@ section.top header{
     font-weight: bold;
 }
 .etapas li.active {
-    color: #6ac7f1;
+    color: #6eff54;
 }
 .etapas li.finish {
     color: #6ac7f1;
@@ -49,15 +49,15 @@ section.content{
 }
 .form-etapas .form-control{
     margin: 5px 0;
-    height: 40px;
+    height: auto;
 }
 .form-etapas label {
     vertical-align: middle;
+    width: 95%;
 }
 .result-img {
     box-shadow: 1px 2px 10px 6px;
     margin: 20px 0;
-    max-width: 500px;
 }
 #restart {
     font-weight: bold;
@@ -77,4 +77,7 @@ img.error-img {
 }
 .btn-form{
     margin-top: 20px;
+}
+img{
+  max-width: 100%;
 }
